@@ -17,5 +17,8 @@ public:
 			cout << "Number of data exceeds the limit." << endl;
 			return "";
 		}
+		top++;															//step 2
+		stack_array[top] = element;										//step 3
+		cout << endl;
 	}
 };
